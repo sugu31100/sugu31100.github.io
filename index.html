@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>eheheheh</title>
+<style>
+  body{
+    background-color: lightpink;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+  .container{
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: 100px;
+    margin: 20px;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 20%;
+
+  }
+
+  .form-group{
+    margin-bottom: 16px;
+  }
+  .form-group input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  button{
+    background-color: pink;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    padding: 20px;
+  }
+  button:hover{
+    background-color: deeppink;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+
+    <br>
+    <form action="flower.html" method="get">
+      <div class="form-group">
+        Name:
+      <input type="text" placeholder="enter your name">
+    </div>
+      <br>
+      <br>
+      <div class="form-group">
+        Password:
+      <input type="password" placeholder="enter the password">
+    </div>
+    <a href="flower.jpg" target="_blank">
+    <button onclick="buttonfn()"> Submit </button>
+  </a>
+    </form>
+  </div>
+  <script>
+    function buttonfn(){
+      window.desktop.href="flower.html"
+    }
+  </script>
+</body>
+</html>
